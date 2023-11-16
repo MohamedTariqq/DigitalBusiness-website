@@ -1,0 +1,64 @@
+.wii-wrapper .container {
+  margin-top: 13rem;
+}
+.wii-contianer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+}
+.wii-left {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.head {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.head .title {
+  color: #fff;
+  text-align: left;
+  max-width: 25rem;
+}
+.wii-features {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.wii-feature {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 28rem;
+}
+.wii-feature .des {
+  color: var(--fourth-color);
+}
+.wii-feature .text {
+  text-align: justify;
+  color: white;
+}
+.wwi-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+}
+.wwi-right img {
+  width: 95%;
+}
+@media (max-width: 990px) {
+  .wii-contianer {
+    flex-direction: column;
+  }
+  .wwi-right {
+    align-self: center;
+    margin-top: 2rem;
+  }
+  .wwi-right img {
+    max-width: 20rem;
+  }
+}
